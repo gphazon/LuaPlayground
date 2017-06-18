@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 -- exports: table_to_str function
 
 local table_to_str = nil
@@ -11,7 +18,7 @@ do -- BEGIN LIB BLOCK
 -- local tostring = tostring
 -- local error = error
 
-local E_TYPE_NIL     = 1
+local E_TYPE_NIL     = 1 
 local E_TYPE_BOOLEAN = 2
 local E_TYPE_NUMBER  = 3
 local E_TYPE_STRING  = 4
