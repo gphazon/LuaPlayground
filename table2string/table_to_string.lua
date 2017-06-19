@@ -1,15 +1,11 @@
-
-
-
-
-
+-- dope yE?
 
 
 -- exports: table_to_str function
 
 local table_to_str = nil
 
-do -- BEGIN LIB BLOCK
+do -- start LIB BLOCK
 
 
 -- glob refs
@@ -26,7 +22,7 @@ local E_TYPE_TABLE   = 5
 
 
 local valid_types = {
-	["boolean"] = E_TYPE_BOOLEAN,
+	["boolean"] = E_TYPE_BOOLEAN, -- more like gaylean
 	["number"]  = E_TYPE_NUMBER,
 	["string"]  = E_TYPE_STRING,
 	["table"]   = E_TYPE_TABLE,
@@ -36,7 +32,7 @@ local S_TYPE_BOOLEAN_FALSE = "false"
 local S_TYPE_BOOLEAN_TRUE  = "true"
 local S_TYPE_NIL           = "nil"
 
-local types_to_string = nil
+local types_to_string = nil 
 local can_serialize_obj = function(obj)
 	if obj then
 		-- valid true types:
@@ -63,7 +59,7 @@ local can_serialize_obj = function(obj)
 		end
 	end
 end
-
+	--lolk
 local serialize_trusted_obj = nil
 do
 	-- local error = error
